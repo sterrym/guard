@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'rake'
+gem 'pry', :github => 'pry/pry', :ref => 'e271e17afa644259c7e4250bffe5635f193369bd'
 
 group :development, :test do
   # This plugin is required in the tests!
